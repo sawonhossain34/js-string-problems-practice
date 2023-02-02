@@ -31,5 +31,7 @@
 // const result1 =Math.floor(number);
 // console.log(result1);
 
-const result = Math.random()*100;
+for(i= 0 ; i < 20 ; i++){
+    const result = Math.round(Math.random()*6);
 console.log(result);
+}
